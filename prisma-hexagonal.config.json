@@ -1,0 +1,6 @@
+{
+  "modules": [
+    { "model": "Profile" },
+    { "model": "ProfileSocialLinks" }
+  ]
+}

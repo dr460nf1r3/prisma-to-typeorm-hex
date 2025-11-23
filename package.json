@@ -1,0 +1,21 @@
+{
+  "name": "prisma-to-typeorm-hex",
+  "version": "1.0.0",
+  "description": "Scripts to generate TypeORM entities and hexagonal resources from a Prisma schema.",
+  "scripts": {
+    "generate:typeorm": "ts-node -r tsconfig-paths/register generate-typeorm-entities.ts",
+    "generate:hex": "ts-node -r tsconfig-paths/register generate-hexagonal-resources.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.22.0",
+  "devDependencies": {
+    "@prisma/generator-helper": "^7.0.0",
+    "@prisma/internals": "^7.0.0",
+    "change-case": "^5.4.4",
+    "pluralize": "^8.0.0",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0"
+  }
+}
